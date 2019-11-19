@@ -1,0 +1,32 @@
+/* 
+Author: Hannah Ford
+Date: 11/19/2019
+Assignment: Group Project 
+Purpose: An application for the hotel system 
+ */
+
+package GroupProject;
+import java.util.*; 
+
+public class hotelApplication {
+
+ 
+    public static void main(String[] args) {
+    
+        ArrayList<Guest> guests = new ArrayList<Guest>(); 
+        ArrayList<Booking> bookings = new ArrayList<Booking>();
+        ArrayList<Room> rooms = new ArrayList<Room>(); 
+        ArrayList<Employee> employees = new ArrayList<Employee>(); 
+        ArrayList<Guest> valueGuests = new ArrayList<Guest>(); 
+        
+        
+        //guests.add()
+        // bookings.add()
+        //rooms.add()
+        // employees.add()
+        //valueGuests.add()
+        
+        
+    }
+    
+}
