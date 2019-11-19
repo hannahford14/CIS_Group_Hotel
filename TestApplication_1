@@ -1,0 +1,15 @@
+package Group_Project;
+
+import java.util.ArrayList;
+
+public class FirstTestApp {
+
+   
+    public static void main(String[] args) {
+       ArrayList<Employee> employeeArray = new ArrayList<>();
+       ArrayList<Guest> courseArray = new ArrayList<>();
+       ArrayList<ValueGuest> courseArray = new ArrayList<>();
+       ArrayList<Room> studentArray = new ArrayList<>(); 
+    }
+    
+}
