@@ -1,0 +1,48 @@
+
+package Group_Project;
+
+
+public class Room {
+    
+    public int bedOption;
+    public int kitchenOption;
+    public int coffeeOption;
+    public int accessibleOption;
+    public int roomNumber;
+    private int roomID;
+    private int roomBookQuantity;
+    private boolean roomBooked;
+    public double roomCostPerNight;
+    public static int nextID = 0;
+    
+    public Room(int bed, int kitch, int coffee, int accessibility,
+            int roomNumber){
+        this.bedOption = bed;
+        this.kitchenOption = kitch;
+        this.coffeeOption = coffee;
+        this.accessibleOption = accessibility;
+        this.roomNumber = roomNumber;
+                                            //NEED MORE??
+    }
+    
+    public boolean bookRoom(){
+        //IF BOOKED RETURN FALSE else roomBooked = True
+        return ; //ADD TO RETURN 
+    }
+    
+    public void freeThisRoom(){
+        //Set roomBooked flag to false
+    }
+    
+    public String toString(){
+        String returnString = "";
+        returnString += "Room #: " + this.roomNumber;
+        returnString += "Bed Option: " + this.bedOption;
+        returnString += ", Kitchen: " + this.kitchenOption;
+        returnString += ", Coffee Option: " + this.coffeeOption;
+        returnString += ", Accessibility: " + this.accessibleOption + "\n";
+        
+        return returnString;
+    }
+    
+}
